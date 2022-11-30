@@ -3,7 +3,7 @@
 ``` text
 This is a basic web-application which allow you to make operations with driver, manufacturer and car.
 ```
-## :zap: Service fearures :zap:
+## :zap: Service features :zap:
 - register as a driver
 - delete a registered driver
 - create/delete/update a car
