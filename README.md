@@ -3,7 +3,7 @@
 ``` text
 This is a basic web-application which allow you to make operations with driver, manufacturer and car.
 ```
-## :zap: Service fearures:
+## :zap: Service fearures :zap:
 - register as a driver
 - delete a registered driver
 - create/delete/update a car
@@ -20,3 +20,12 @@ This is a basic web-application which allow you to make operations with driver, 
 - CRUD operation for each DAO class
 - 3-tier architecture  DAO -> SERVICE -> WEB
 - Servlet controllers and Filter to handle HTTP requests
+- Java 11 and Apache Tomcat 9.0.50
+
+## :question: How to use :question:
+- Replace username, password, JDBC driver and URL in `connectionUtil`
+- Run script from the `resources/init_db.sql`
+- Add `Apache Tomcat 9.0.50`
+- Register as a new driver
+- Use all functions
+- Logout
