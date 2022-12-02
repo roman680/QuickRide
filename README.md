@@ -2,6 +2,7 @@
 ### Project descriprion:
 ``` text
 This is a basic web-application which allow you to make operations with driver, manufacturer and car.
+It is created for internal communication within taxi companies.
 ```
 ## :zap: Service features :zap:
 - register as a driver
@@ -15,12 +16,19 @@ This is a basic web-application which allow you to make operations with driver, 
 
 #### ⚠️ You need to be registered as a driver to get access to all functions of the app ⚠️
 
+## :triangular_ruler: Project structure :triangular_ruler:
+3 tier architecture 
+- DAO -> all interaction with DataBase
+- SERVICE -> all busines-logic
+- Controller -> work with WEB
+
 ## :wrench: Technologies :wrench:
-- Dependency injection and JDBC to word with database
 - CRUD operation for each DAO class
-- 3-tier architecture  DAO -> SERVICE -> WEB
-- Servlet controllers and Filter to handle HTTP requests
-- Java 11 and Apache Tomcat 9.0.50
+- Servlet controllers 
+- JDBC
+- Filter
+- Java 11 
+- Apache Tomcat 9.0.50
 
 ## :question: How to use :question:
 - Replace username, password, JDBC driver and URL in `connectionUtil`
