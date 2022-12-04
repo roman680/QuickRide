@@ -23,12 +23,16 @@ It is created for internal communication within taxi companies.
 - Controller -> work with WEB
 
 ## :wrench: Technologies :wrench:
-- CRUD operation for each DAO class
-- Servlet controllers 
-- JDBC
-- Filter
 - Java 11 
+- Servlet Api
+- JDBC
+- SQL
+- GIT
+- Maven
+- JSP
+- JSTL
 - Apache Tomcat 9.0.50
+- HTML, CSS
 
 ## :question: How to use :question:
 - Replace username, password, JDBC driver and URL in `connectionUtil`
