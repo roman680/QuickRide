@@ -1,4 +1,4 @@
-# :oncoming_taxi: Taxi-Service :oncoming_taxi:
+# :oncoming_taxi: QuickRide :oncoming_taxi:
 ### Project descriprion:
 ``` text
 This is a basic web-application which allow you to make operations with driver, manufacturer and car.
